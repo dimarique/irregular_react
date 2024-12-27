@@ -1,0 +1,49 @@
+#root {
+	font-size: 16px;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+
+	/*Day theme*/
+	--color-day-bg: hsl(206, 64%, 92%);
+	--color-day-text: hsl(206, 64%, 27%);
+	--color-day-error: hsla(0, 100%, 50%, 0.75);
+	--color-day-success: hsla(120, 100%, 50%, 0.75);
+	--color-day-hidden-word: hsl(60, 100%, 50%);
+
+	/*Night theme*/
+	--color-night-bg: hsl(0, 0%, 7%);
+	--color-night-text: hsl(230, 89%, 74%);
+	--color-night-error: hsla(0, 90%, 60%, 0.6);
+	--color-night-success: hsla(120, 90%, 45%, 0.75);
+	--color-night-hidden-word: hsla(60, 90%, 40%, 0.8);
+
+	/*Shadows*/
+	--shadow-long: 0px 10px 15px -3px hsla(206, 64%, 27%, 0.5);
+	--shadow-short: 0px 5px 5px -3px hsla(206, 64%, 27%, 0.5);
+}
+
+html {
+	margin: 0 auto;
+	max-width: 375px;
+	background-color: var(--color-day-bg);
+}
+
+body {
+	/*background-color: var(--color-day-bg);*/
+}
+
+.nav {}
+
+.card {}
+
+.hidden {
+	color: transparent;
+}
+
+.buttons {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	/*background-color: var(--color-day-bg);*/
+}
