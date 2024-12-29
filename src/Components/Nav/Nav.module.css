@@ -1,4 +1,17 @@
+.nav {
+	margin: 0 auto;
+	width: 95%;
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+}
+
 a {
 	font-variant: small-caps;
 	text-decoration: none;
+	color: var(--color-day-text);
+}
+
+a:hover {
+	color: var(--color-day-text);
 }
