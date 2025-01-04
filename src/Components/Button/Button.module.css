@@ -1,7 +1,7 @@
 .buttons__button {
 	color: var(--color-day-text);
 	/*background-color: var(--color-day-bg);*/
-	border: 1px solid var(--color-day-text);
+	/*border: 1px solid var(--color-day-text);*/
 	border-radius: 2em;
 	box-shadow: var(--shadow-long);
 	font-size: 20px;

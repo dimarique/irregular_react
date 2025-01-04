@@ -3,6 +3,8 @@
 	margin: 0 auto;
 	text-align: center;
 	width: 100%;
+	border: 1px solid var(--color-day-text);
+	background-color: var(--color-day-bg);
 
 	/*Day theme*/
 	--color-day-bg: hsl(206, 64%, 92%);
@@ -24,14 +26,11 @@
 }
 
 html {
+	height: auto;
 	margin: 0 auto;
 	max-width: 375px;
-	background-color: var(--color-day-bg);
 }
 
-body {
-	/*background-color: var(--color-day-bg);*/
-}
 
 .nav {}
 
@@ -47,5 +46,5 @@ body {
 	width: 95%;
 	/*gap: 0.5em;*/
 	justify-content: center;
-	/*background-color: var(--color-day-bg);*/
+	background-color: var(--color-day-bg);
 }
