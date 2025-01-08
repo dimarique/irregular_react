@@ -5,14 +5,14 @@ import Card from "./Card/Card";
 
 
 function Page(props) {
-	return <div>
+	return <>
 		<Nav />
 		<Card />
 		<div className="buttons">
 			<Button text='testen' />
 			<Button text='nächste' />
 		</div>
-	</div>
+	</>
 }
 
 export default Page

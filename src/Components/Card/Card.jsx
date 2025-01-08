@@ -5,9 +5,10 @@ const Card = () => {
 	const verbformen = ['Infinitiv', '3. Sg. Präsens', '3. Sg. Präteritum', '3. Sg. Perfect', 'Übersetzung']
 	return (
 		<div className={styles.test}>
-			{verbformen.map((vebform) => (
-				<div key={vebform}>
-					{vebform}
+			{verbformen.map((verbform) => (
+				<div key={verbform}
+					className='card__verbform'>
+					{verbform}
 				</div>
 			))}
 		</div>

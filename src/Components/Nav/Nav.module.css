@@ -6,6 +6,14 @@
 	font-size: 14px;
 }
 
+.nav__left {
+	text-align: left;
+}
+
+.nav__right {
+	text-align: right;
+}
+
 a {
 	font-variant: small-caps;
 	text-decoration: none;
