@@ -3,11 +3,17 @@
 	box-sizing: border-box;
 	flex-direction: column;
 	justify-content: space-between;
-	/*font-size: 16px;*/
+	min-height: 540px;
+	max-width: 375px;
 	margin: 0 auto;
+	margin: 0 auto;
+	padding: 1.2rem;
 	text-align: center;
 	width: 100%;
-	border: 1px solid var(--color-day-text);
+	/*border: 1px solid var(--color-day-text);*/
+	outline: 1px dashed darkblue;
+	outline-offset: -8px;
+	box-shadow: var(--shadow-short);
 	/*background-color: var(--color-day-bg);*/
 
 	/*Day theme*/
@@ -28,27 +34,6 @@
 	--shadow-long: 0px 10px 15px -3px hsla(206, 64%, 27%, 0.5);
 	--shadow-short: 0px 5px 5px -3px hsla(206, 64%, 27%, 0.5);
 }
-
-html,
-body,
-#root {
-	min-height: 640px;
-	height: auto;
-}
-
-html {
-	margin: 0 auto;
-	max-width: 375px;
-}
-
-#root {
-	padding: 1rem 0;
-}
-
-
-.nav {}
-
-.card {}
 
 .hidden {
 	color: transparent;

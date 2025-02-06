@@ -7,7 +7,7 @@ const Card = () => {
 		<div className={styles.test}>
 			{verbformen.map((verbform) => (
 				<div key={verbform}
-					className='card__verbform'>
+					className={styles.card__verbform}>
 					{verbform}
 				</div>
 			))}

@@ -1,5 +1,9 @@
 .buttons__button {
 	color: var(--color-day-text);
+	outline: 1px dashed darkblue;
+	outline-offset: -5px;
+	/*border-style: dashed;*/
+	/*border-color: red;*/
 	border-radius: 2rem;
 	box-shadow: var(--shadow-long);
 	font-size: 1.25rem;

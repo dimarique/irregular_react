@@ -1,8 +1,8 @@
 import React from "react";
-import Nav from "./Nav/Nav"
-import Button from "./Button/Button";
-import Card from "./Card/Card";
-import VerbFormRow from "./VerbFormRow/VerbFormRow";
+import Nav from "./../Nav/Nav"
+import Button from "./../Button/Button";
+import Card from "./../Card/Card";
+import VerbFormRow from "./../VerbFormRow/VerbFormRow";
 
 
 function Page(props) {

@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import Page from "./Components/UnregelmesigePage"
+import Page from "./Components/UnregelmesigePage/UnregelmesigePage"
 
 function App() {
 
